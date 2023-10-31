@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: none;
+}
+
+.but{
+    display: flex;
+}
+
+span{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.random{
+    padding: 10px 30px;
+    background-color: transparent;
+    opacity: 80%;
+    border: 0px;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-top: 10px;
+}
+
+.random:hover{
+    opacity: 100%;
+}
+  

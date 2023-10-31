@@ -1,0 +1,44 @@
+body{
+    background-color: #212121;
+    color: whitesmoke;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form{
+    font-size: large;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+}
+
+.random{
+    padding: 6px 30px;
+    background-color: whitesmoke;
+    opacity: 80%;
+    border: 0px;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+
+.random:hover{
+    opacity: 100%;
+    background-color: whitesmoke;
+    transition: 500ms;
+}
+  
+
+.info{
+    margin-top: 20px;
+    line-height: 30px;
+}
